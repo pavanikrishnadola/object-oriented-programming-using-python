@@ -1,0 +1,15 @@
+#shape
+from turtle import *
+title("Turtle Graphics Example")
+bgcolor("lightblue")
+setup(600,400)
+shape("turtle")
+color("darkgreen")
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+left(90)
+forward(100)
+done()
