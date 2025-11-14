@@ -1,0 +1,11 @@
+from tkinter import *
+root=Tk()
+root.title("Demo Application")
+root.geometry("500x300+400+200")
+root.config(bg="red")
+root.resizable(0,0)
+lb1=Label(text="Nipuna",bg="#95F0C6",fg="#A42AAD",font=("verdana",20,"bold"))
+lb1.pack(pady=20)
+lb2=Label(text="Vijayawada",bg="#DBC979",fg="#BF2828",font=("impact",20,"bold"))
+lb2.pack(pady=20)
+mainloop()
